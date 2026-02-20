@@ -13,9 +13,7 @@ import { Button } from '@/components/ui/button'
 
 const navItems = [
   { label: '홈', href: '/' },
-  { label: '소개', href: '#about' },
-  { label: '기능', href: '#features' },
-  { label: '연락처', href: '#contact' },
+  { label: '예제', href: '/showcase' },
 ]
 
 export function Header() {
