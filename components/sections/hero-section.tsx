@@ -35,10 +35,12 @@ export function HeroSection() {
 
           {/* CTA 버튼 */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="px-8">
-              시작하기
+            <Button size="lg" className="px-8" asChild>
+              <Link href="/showcase">
+                시작하기
+              </Link>
             </Button>
-            <Button size="lg" variant="outline" className="px-8">
+            <Button size="lg" variant="outline" className="px-8" asChild>
               <Link href="#features">
                 더 알아보기
               </Link>
